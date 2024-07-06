@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+.clearfix::after {
+  background-color:#46A358;
+  content: "Login";
+  width: 100px;
+  height: 35px;
+  left: 1100px;
+}
+
+/* Header Styles */
+
+header {
+  background-color: white;
+  padding: 20px 0;
+  text-align: center;
+  
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 150px;
+  height: 34.3px;
+
+}
+
+nav {
+  display: inline-block;
+  border-bottom: colid 1px;color: #3D3D3D;
+  
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li {
+  margin-right: 20px;
+}
+
+.list a {
+  color: #3D3D3D;
+  text-decoration: none;
+
+}
+
+.list a:hover {
+  color: #46A358;
+}
+
+.login {
+  background-color:  #46A358;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.login:hover {
+  background-color:#46A358;
+  width: 100px;
+  height: 35px;
+
+
+}
+
+/* Banner Styles */
+
+.baner {
+  background-color: white;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  padding: 43px;
+  align-items: center;
+}
+
+.menu article {
+  width: 50%;
+  padding: 20px;
+  margin: 43px;
+}
+
+.menu h4 {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.menu h1 {
+  font-family: Cera Pro;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  text-align: left;
+
+  
+}
+
+.menu h1 span {
+  font-family: Cera Pro;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  text-align: left;
+  color: #46A358;
+}
+
+.menu p {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+
+  margin-bottom: 20px;
+}
+
+.menu a {
+  background-color:  #46A358;
+  padding: 10px 10px;
+  color:#46A358;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color:  #46A358;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.menu img {
+  width: 50%;
+  height: auto;
+  margin: 20px;
+}
+
